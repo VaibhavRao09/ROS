@@ -1,0 +1,8 @@
+prefix=/home/cse468-568-student/f1tenth/devel
+
+Name: f1tenth_simulator
+Description: Description of f1tenth_simulator
+Version: 0.0.1
+Cflags: -I/home/cse468-568-student/f1tenth/src/f1tenth_simulator/include
+Libs: -L${prefix}/lib -lf1tenth_simulator
+Requires: message_runtime
